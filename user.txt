@@ -1,1 +1,2 @@
 Prathap,123456,Teacher
+Veera,123456,Student

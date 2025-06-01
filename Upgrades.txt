@@ -1,0 +1,24 @@
+What’s Next?
+Here are some ideas to enhance your project:
+
+🔐 1. Password Encryption
+Store hashed passwords instead of plain text using MessageDigest (e.g., SHA-256).
+
+🧪 2. Add Unit Tests
+Use JUnit to test login, registration, and grade-related functionality.
+
+📝 3. Input Validation
+Prevent blank names or roles.
+
+Check that grades are valid (A/B/C...).
+
+Prevent duplicate users on registration.
+
+📂 4. Organize Files Better
+Store student records in a students/ folder as separate files (optional enhancement).
+
+🧑‍🏫 5. Teacher Grade Updates
+Allow teachers to update existing grades for students.
+
+💾 6. File Backup
+Make a backup copy of gradesFile.txt before writing (safety mechanism).

@@ -1,10 +1,15 @@
 package main;
 import auth.AuthService;
+import student.StudentService;
+import teacher.TeacherService;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         AuthService authorise = new AuthService();
         Scanner sc = new Scanner(System.in);
+        StudentService ss = new StudentService();
+        TeacherService ts = new TeacherService();
         while(true){
             System.out.println("-----Welcome------");
             System.out.println("1. Register");
@@ -30,12 +35,12 @@ public class Main {
                 if(role!=null && role.equalsIgnoreCase("teacher")){
                     System.out.println("Teacher login Successful");
                     System.out.println("redirecting to Teacher module");
-                    return;
+                    ts.startTeacherModule(username);
                 }
                 else if(role!=null && role.equalsIgnoreCase("student")){
                     System.out.println("Student login Successful");
                     System.out.println("Redirecting to Student Module");
-                    return;
+                    ss.startStudentModule(username);
                 }
 
             }
