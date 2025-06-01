@@ -52,18 +52,16 @@ JavaLearningProject/
     javac main/Main.java
     java main.Main
 
-Files Used
+## Files Used
 usersFile.txt – stores user credentials and roles
-
 gradesFile.txt – stores grade information in format: username,subject,grade
 
-Requirements
+## Requirements
 Java 8 or higher
-
 Text-based console
 
-Contributions
+## Contributions
 Feel free to fork and enhance the features! Pull requests are welcome.
 
-Contact
+## Contact
 Developed with ❤️ by V G Prathap CH
